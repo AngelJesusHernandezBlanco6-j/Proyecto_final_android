@@ -5,6 +5,8 @@ import 'package:hernandezb/jugadores.dart';
 import 'package:hernandezb/equipos.dart';
 import 'package:hernandezb/conclusion.dart';
 import 'package:hernandezb/datos.dart';
+import 'package:hernandezb/conclusion.dart';
+import 'package:hernandezb/inscripcion.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/equipos': (context) => Equipos(),
         '/conclusion': (context) => Conclusion(),
         '/datos': (context) => Datos(),
+        '/inscripcion': (context) => Inscripcion(),
       },
     );
   }

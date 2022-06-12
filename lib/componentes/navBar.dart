@@ -65,6 +65,12 @@ class navBar extends StatelessWidget {
                   },
                   icon: Icon(Icons.manage_accounts, color: active == 'datos' ? azul : null),
                 ),
+                IconButton(
+                  onPressed: () {
+                    Navigator.pushNamed(contexto, '/inscripcion');
+                  },
+                  icon: Icon(Icons.person_sharp, color: active == 'inscripcion' ? azul : null),
+                ),
               ],
             ),
           )),
