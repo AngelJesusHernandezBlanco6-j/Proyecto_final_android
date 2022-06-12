@@ -18,7 +18,11 @@ class Confirmacion extends StatelessWidget {
           ),
           centerTitle: true,
           backgroundColor: rojo,
-          leading: IconButton(icon: Icon(Icons.menu, color: azul), onPressed: () {}),
+          leading: IconButton(
+              icon: Icon(Icons.arrow_back, color: azul),
+              onPressed: () {
+                Navigator.pushNamed(context, '/inicio');
+              }),
           elevation: 10,
           actions: [
             IconButton(
