@@ -42,7 +42,7 @@ class Login extends StatelessWidget {
                         padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
                         child: TextField(
                           decoration: InputDecoration(
-                            labelText: 'Ingresa tu correo',
+                            labelText: 'Ingresa tu correo o nombre de usuario',
                             filled: true,
                             fillColor: Color(0xFFF5F5F5),
                             border: OutlineInputBorder(
