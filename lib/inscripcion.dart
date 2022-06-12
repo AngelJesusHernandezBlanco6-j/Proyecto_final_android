@@ -44,7 +44,7 @@ class Inscripcion extends StatelessWidget {
                   padding: EdgeInsetsDirectional.fromSTEB(20, 10, 20, 10),
                   child: TextField(
                     decoration: InputDecoration(
-                      labelText: 'Ingresa tu nombre',
+                      labelText: 'Ingresa tu nombre(s)',
                       filled: true,
                       fillColor: Color(0xFFEBEBEB),
                       border: OutlineInputBorder(
@@ -61,7 +61,7 @@ class Inscripcion extends StatelessWidget {
                   padding: EdgeInsetsDirectional.fromSTEB(20, 10, 20, 10),
                   child: TextField(
                     decoration: InputDecoration(
-                      labelText: 'Ingresa tu apellido',
+                      labelText: 'Ingresa tu apellido(paternos y maternos)',
                       filled: true,
                       fillColor: Color(0xFFEBEBEB),
                       border: OutlineInputBorder(
@@ -84,7 +84,7 @@ class Inscripcion extends StatelessWidget {
                         child: TextField(
                           keyboardType: TextInputType.number,
                           decoration: InputDecoration(
-                            labelText: 'Edad',
+                            labelText: 'ingresa tu edad',
                             filled: true,
                             fillColor: Color(0xFFEBEBEB),
                             border: OutlineInputBorder(
@@ -102,7 +102,7 @@ class Inscripcion extends StatelessWidget {
                           padding: EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                           child: TextField(
                             decoration: InputDecoration(
-                              labelText: 'No. Telefono',
+                              labelText: 'No. Telefono o celular',
                               filled: true,
                               fillColor: Color(0xFFEBEBEB),
                               border: OutlineInputBorder(
@@ -142,7 +142,7 @@ class Inscripcion extends StatelessWidget {
                   child: TextField(
                     obscureText: true,
                     decoration: InputDecoration(
-                      labelText: 'Ingresa tu contraseña',
+                      labelText: 'Ingresa tu curp',
                       filled: true,
                       fillColor: Color(0xFFEBEBEB),
                       border: OutlineInputBorder(
@@ -162,7 +162,7 @@ class Inscripcion extends StatelessWidget {
                       context: context,
                       builder: (BuildContext context) => AlertDialog(
                         title: const Text('Registro'),
-                        content: const Text('¡Se han registrado sus datos correctamente!'),
+                        content: const Text('¡Todos sus datos se han registrado sus datos correctamente!'),
                         actions: <Widget>[
                           TextButton(
                             onPressed: () => Navigator.pop(context, 'Cancelar'),
@@ -175,7 +175,7 @@ class Inscripcion extends StatelessWidget {
                         ],
                       ),
                     ),
-                    child: Text('REGISTARSE'),
+                    child: Text('INSCRIBIRSE'),
                     style: ElevatedButton.styleFrom(
                       primary: azul,
                       minimumSize: Size(
