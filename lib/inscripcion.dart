@@ -84,7 +84,7 @@ class Inscripcion extends StatelessWidget {
                         child: TextField(
                           keyboardType: TextInputType.number,
                           decoration: InputDecoration(
-                            labelText: 'ingresa tu edad',
+                            labelText: 'Edad',
                             filled: true,
                             fillColor: Color(0xFFEBEBEB),
                             border: OutlineInputBorder(
@@ -169,7 +169,9 @@ class Inscripcion extends StatelessWidget {
                             child: const Text('Cancel'),
                           ),
                           TextButton(
-                            onPressed: () => Navigator.pop(context, 'OK'),
+                            onPressed: () {
+                              Navigator.pushNamed(context, '/confirmacion');
+                            },
                             child: const Text('OK'),
                           ),
                         ],

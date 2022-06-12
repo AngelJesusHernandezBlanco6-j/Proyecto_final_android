@@ -7,6 +7,7 @@ import 'package:hernandezb/conclusion.dart';
 import 'package:hernandezb/datos.dart';
 import 'package:hernandezb/conclusion.dart';
 import 'package:hernandezb/inscripcion.dart';
+import 'package:hernandezb/confirmacion.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         '/conclusion': (context) => Conclusion(),
         '/datos': (context) => Datos(),
         '/inscripcion': (context) => Inscripcion(),
+        '/confirmacion': (context) => Confirmacion(),
       },
     );
   }
