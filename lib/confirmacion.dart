@@ -51,9 +51,9 @@ class Confirmacion extends StatelessWidget {
                 ),
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(20, 10, 20, 10),
-                  child: Text('  ESTA APLICACION FUE REALIZADA PRIMERO FUE REALIZADA EN COMO BASE EN FLUTTERFLOW Y POSTERIOMENTE LA PASE A FLUTLAB,PARA QUE SE PUDIERA DESCARGAR Y UTILIZAR EN ALGUN DISPOSITIVO ANDROID.Y EN ESTA OCASION HICIMOS LA APLICACION MOVIL DE AUCERDO A CIERTAS ESPECIFICACIONES QUE NOS FUERRON DADAS POR EL PROFESOR Y LO MAS COMPLICADO FUE QUE LA TENIAMOS QUE HACER CON UN CODIGO..Y ESTA AL SER LA ULTIMA ACTIVIDAD SE NOS PIDIO, Y PARA FINALIZAR LO QUE TENGO QUE DECIR ES QUE ESTOS MODULOS FUERON DE GRAN AYUDA PARA SI EN ALGUN MOMENTO QUISIERAMOS SEGUIR ESTUDIANDO UNA CARRERA RELACIONANDA CON LA PORGRAMACION'),
+                  child: Text('¡FELICIDADES!,Has llenado todos los campos para poder inscribirte a un equipo de futbol de tercera division,aunque el termino tecera division se escuche muy aburrido entrar a esta clase de equipos te da mucha experiencia para un futuro.Pero ojo llenar estos campos no te garantiza entrar a un equipo,solo es un registro para que puedas ser considerado.Lo unico que tienes que hacer es estar al pendiente al correo electronico que nos proporcionaste por que ahi se informara si fuiste seleccionado,¡¡MUCHA SUERTE!! '),
                 ),
-                Image.network('https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/APP.jpg', width: 300, height: 300)
+                Image.network('https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/equipos.jpg', width: 300, height: 300)
               ],
             ),
           ],

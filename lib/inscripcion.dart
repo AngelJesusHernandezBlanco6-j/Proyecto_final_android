@@ -102,7 +102,7 @@ class Inscripcion extends StatelessWidget {
                           padding: EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                           child: TextField(
                             decoration: InputDecoration(
-                              labelText: 'No. Telefono o celular',
+                              labelText: 'Tipo sangre',
                               filled: true,
                               fillColor: Color(0xFFEBEBEB),
                               border: OutlineInputBorder(
