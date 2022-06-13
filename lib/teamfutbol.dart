@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
           IconButton(
             icon: Icon(Icons.arrow_forward_ios_rounded),
             onPressed: () {
-              Navigator.pushNamed(context, '/');
+              Navigator.pushNamed(context, '/inscripcion');
             },
           ),
         ],
