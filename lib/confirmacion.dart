@@ -51,7 +51,7 @@ class Confirmacion extends StatelessWidget {
                 ),
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(20, 10, 20, 10),
-                  child: Text('¡FELICIDADES!,Has llenado todos los campos para poder inscribirte a un equipo de futbol de tercera division,aunque el termino tecera division se escuche muy aburrido entrar a esta clase de equipos te da mucha experiencia para un futuro.Pero ojo llenar estos campos no te garantiza entrar a un equipo,solo es un registro para que puedas ser considerado.Lo unico que tienes que hacer es estar al pendiente al correo electronico que nos proporcionaste por que ahi se informara si fuiste seleccionado,¡¡MUCHA SUERTE!! '),
+                  child: Text('¡FELICIDADES!,Has llenado todos los campos para poder inscribirte a un equipo de futbol de tercera division,aunque el termino tecera division se escuche muy aburrido entrar a esta clase de equipos te da mucha experiencia para un futuro.Pero ojo llenar estos campos no te garantiza entrar a un equipo,solo es un registro para que puedas ser considerado.Lo unico que tienes que hacer es estar al pendiente al correo electronico que nos proporcionaste por que ahi se informara si fuiste seleccionado¡¡MUCHA SUERTE!! '),
                 ),
                 Image.network('https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/equipos.jpg', width: 300, height: 300)
               ],

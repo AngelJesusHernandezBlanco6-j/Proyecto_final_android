@@ -20,6 +20,12 @@ class Inscripcion extends StatelessWidget {
               Navigator.pushNamed(context, '/inicio');
             },
           ),
+          IconButton(
+            icon: Icon(Icons.sports_football, color: azul),
+            onPressed: () {
+              Navigator.pushNamed(context, '/teamfutbol');
+            },
+          ),
         ],
       ),
       body: Stack(
