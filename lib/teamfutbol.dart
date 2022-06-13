@@ -38,6 +38,19 @@ class _MyHomePageState extends State<MyHomePage> {
     "assets/images/santos.png",
     "assets/images/tigres.png",
     "assets/images/toluca.png",
+    "assets/images/atalante.png",
+    "assets/images/delfines.jpg",
+    "assets/images/hidalgo.jpg",
+    "assets/images/irapuato.png",
+    "assets/images/leon.png",
+    "assets/images/murcielagos.jpg",
+    "assets/images/puebla.png",
+    "assets/images/queretaro.png",
+    "assets/images/sanluis.jpg",
+    "assets/images/sinaloa.png",
+    "assets/images/tampico.png",
+    "assets/images/tepic.png",
+    "assets/images/zacatepec.png",
   ];
   @override
   Widget build(BuildContext context) {
