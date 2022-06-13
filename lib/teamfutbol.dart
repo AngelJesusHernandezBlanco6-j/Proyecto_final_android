@@ -78,5 +78,6 @@ class _MyHomePageState extends State<MyHomePage> {
         shrinkWrap: true,
       ),
     );
+    navBar(contexto: context, active: 'teamfutbol');
   }
 }

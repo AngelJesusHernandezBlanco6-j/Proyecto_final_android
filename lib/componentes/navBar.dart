@@ -71,6 +71,12 @@ class navBar extends StatelessWidget {
                   },
                   icon: Icon(Icons.people_outlined, color: active == 'inscripcion' ? azul : null),
                 ),
+                IconButton(
+                  onPressed: () {
+                    Navigator.pushNamed(contexto, '/teamfutbol');
+                  },
+                  icon: Icon(Icons.more, color: active == 'teamfutbol' ? azul : null),
+                ),
               ],
             ),
           )),
