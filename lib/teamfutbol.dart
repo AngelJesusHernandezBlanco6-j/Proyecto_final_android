@@ -31,12 +31,13 @@ class _MyHomePageState extends State<MyHomePage> {
     "assets/images/barca.png",
     "assets/images/bravos.png",
     "assets/images/chivas.png",
-    "assets/images/curzaazul.jpg",
+    "assets/images/curzazul.jpg",
     "assets/images/monterrey.png",
     "assets/images/necaxa.png",
     "assets/images/puma.jpg",
     "assets/images/santos.png",
     "assets/images/tigres.png",
+    "assets/images/toluca.png",
   ];
   @override
   Widget build(BuildContext context) {
@@ -44,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text("EQUIPOS DE FUTBOL"),
         centerTitle: true,
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.red,
       ),
       body: GridView.builder(
         itemCount: images.length,
