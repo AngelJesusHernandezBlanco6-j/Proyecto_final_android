@@ -21,7 +21,7 @@ class Inscripcion extends StatelessWidget {
             },
           ),
           IconButton(
-            icon: Icon(Icons.sports_football, color: azul),
+            icon: Icon(Icons.sports_soccer, color: azul),
             onPressed: () {
               Navigator.pushNamed(context, '/teamfutbol');
             },

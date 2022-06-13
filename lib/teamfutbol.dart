@@ -44,6 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text("EQUIPOS DE FUTBOL"),
         centerTitle: true,
+        backgroundColor: Colors.deepOrange,
       ),
       body: GridView.builder(
         itemCount: images.length,
