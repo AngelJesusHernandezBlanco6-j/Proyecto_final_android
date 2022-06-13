@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'package:hernandezb/estilos.dart';
+import 'package:hernandezb/componentes/navBar.dart';
 
 void main() async {
   runApp(
     MaterialApp(debugShowCheckedModeBanner: false, initialRoute: '/', routes: {
-      '/': (context) => RouteOne(),
+      '/': (context) => Gridviewequipo(),
       '/detail': (context) => RouteTwo(image: '', name: ''),
     }),
   );
@@ -15,7 +18,7 @@ class PhotoItem {
   PhotoItem(this.image, this.name);
 }
 
-class RouteOne extends StatelessWidget {
+class Gridviewequipo extends StatelessWidget {
   final List<PhotoItem> _items = [
     PhotoItem("https://images.pexels.com/photos/1772973/pexels-photo-1772973.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "Stephan Seeber"),
     PhotoItem("https://images.pexels.com/photos/1758531/pexels-photo-1758531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", "Liam Gant"),
@@ -38,6 +41,14 @@ class RouteOne extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          IconButton(
+            icon: Icon(Icons.logout_outlined, color: azul),
+            onPressed: () {
+              Navigator.pushNamed(context, '/inicio');
+            },
+          ),
+        ],
         title: Text('Screen one ☝️'),
       ),
       body: GridView.builder(
