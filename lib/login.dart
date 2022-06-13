@@ -14,7 +14,7 @@ class Login extends StatelessWidget {
             children: [
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(20, 50, 20, 20),
-                child: Image.network("https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/LogoSample_ByTailorBrands.jpg", width: 300, height: 200),
+                child: Image.network("https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/LogoSample_ByTailorBrands.jpg", width: 400, height: 200),
               ),
               Expanded(
                 child: Container(
