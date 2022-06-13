@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hernandezb/estilos.dart';
-import 'package:hernandezb/componentes/navBar.dart';
 
 void main() {
   runApp(Teamfutbol());
