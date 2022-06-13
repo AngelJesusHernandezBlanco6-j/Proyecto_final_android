@@ -46,6 +46,12 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("EQUIPOS DE FUTBOL"),
         centerTitle: true,
         backgroundColor: Colors.red.shade700,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.arrow_forward_ios_rounded),
+            onPressed: () {},
+          ),
+        ],
       ),
       body: GridView.builder(
         itemCount: images.length,
