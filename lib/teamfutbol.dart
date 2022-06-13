@@ -56,14 +56,14 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("EQUIPOS DE FUTBOL"),
+        title: Text("EQUIPOS DE FUTBOL MEXICANO"),
         centerTitle: true,
         backgroundColor: Colors.red.shade700,
         actions: [
           IconButton(
             icon: Icon(Icons.arrow_forward_ios_rounded),
             onPressed: () {
-              Navigator.pushNamed(context, '/inscripcion');
+              Navigator.pop(context);
             },
           ),
         ],
