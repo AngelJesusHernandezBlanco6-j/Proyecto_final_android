@@ -41,6 +41,8 @@ class Gridviewequipo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: Colors.red.shade700,
         actions: [
           IconButton(
             icon: Icon(Icons.logout_outlined, color: azul),
@@ -93,6 +95,8 @@ class RouteTwo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: Colors.red.shade700,
         title: Text('SEGUNDA PANTALLA✌️'),
       ),
       body: Column(
