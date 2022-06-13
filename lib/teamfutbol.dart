@@ -62,7 +62,9 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: [
           IconButton(
             icon: Icon(Icons.arrow_forward_ios_rounded),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/inscripcion');
+            },
           ),
         ],
       ),
