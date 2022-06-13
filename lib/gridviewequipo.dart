@@ -49,7 +49,7 @@ class Gridviewequipo extends StatelessWidget {
             },
           ),
         ],
-        title: Text('Screen one ☝️'),
+        title: Text('EQUIPOS DE FUTBOL MEXICANO'),
       ),
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -93,7 +93,7 @@ class RouteTwo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Screen two ✌️'),
+        title: Text('SEGUNDA PANTALLA✌️'),
       ),
       body: Column(
         children: [
