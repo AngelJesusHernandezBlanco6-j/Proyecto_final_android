@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hernandezb/estilos.dart';
+import 'package:hernandezb/componentes/navBar.dart';
 
 void main() {
   runApp(Teamfutbol());
@@ -60,9 +61,9 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.red.shade700,
         actions: [
           IconButton(
-            icon: Icon(Icons.arrow_forward_ios_rounded),
+            icon: Icon(Icons.logout_outlined, color: azul),
             onPressed: () {
-              Navigator.pushNamed(context, '/inscripcion');
+              Navigator.pushNamed(context, '/');
             },
           ),
         ],
