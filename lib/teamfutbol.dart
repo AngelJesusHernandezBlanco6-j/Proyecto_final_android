@@ -56,14 +56,16 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("EQUIPOS DE FUTBOL MEXICANO"),
+        backgroundColor: rojo,
+        elevation: 10,
         centerTitle: true,
-        backgroundColor: Colors.red.shade700,
+        leading: IconButton(icon: Icon(Icons.menu, color: azul), onPressed: () {}),
+        title: Text("GoFutbol!", style: TextStyle(color: azul, fontWeight: FontWeight.bold)),
         actions: [
           IconButton(
-            icon: Icon(Icons.arrow_back),
+            icon: Icon(Icons.arrow_back, color: azul),
             onPressed: () {
-              Navigator.pushNamed(context, '/inscripcion');
+              Navigator.pushNamed(context, '/inicio');
             },
           ),
         ],
