@@ -21,7 +21,7 @@ class PhotoItem {
 class Gridviewequipo extends StatelessWidget {
   final List<PhotoItem> _items = [
     PhotoItem("https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/EQUIPOSLOGO/FCJUAREZ.jpg", "BRAVOS FC"),
-    PhotoItem(" https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/EQUIPOSLOGO/ATLAS.jpg", "ATLAS"),
+    PhotoItem("https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/EQUIPOSLOGO/zacatepec.png", "ZACATEPEC"),
     PhotoItem("https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/EQUIPOSLOGO/CHIVASGDL.jpg", "CHIVAS"),
     PhotoItem("https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/EQUIPOSLOGO/TIGRES.jpg", "TIGRES"),
     PhotoItem("https://raw.githubusercontent.com/AngelJesusHernandezBlanco6-j/IMAGENESPROYECTOFINAL/main/EQUIPOSLOGO/atalante.png", "ATLANTE"),
