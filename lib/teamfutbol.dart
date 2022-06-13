@@ -61,9 +61,9 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.red.shade700,
         actions: [
           IconButton(
-            icon: Icon(Icons.arrow_forward_ios_rounded),
+            icon: Icon(Icons.arrow_back),
             onPressed: () {
-              Navigator.pop(context);
+              Navigator.pushNamed(context, '/inscripcion');
             },
           ),
         ],

@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Welcome to Flutter',
+      title: 'Bienvenido a mi aplicacion',
       initialRoute: '/',
       routes: {
         '/': (context) => Login(),
