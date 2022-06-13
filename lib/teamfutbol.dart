@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.red.shade700,
         actions: [
           IconButton(
-            icon: Icon(Icons.logout_outlined, color: azul),
+            icon: Icon(Icons.arrow_forward_ios_rounded),
             onPressed: () {
               Navigator.pushNamed(context, '/');
             },
