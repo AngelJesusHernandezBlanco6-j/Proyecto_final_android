@@ -41,12 +41,12 @@ class navBar extends StatelessWidget {
                   },
                   icon: Icon(Icons.home, color: active == 'inicio' ? azul : null),
                 ),
-                IconButton(
-                  onPressed: () {
-                    Navigator.pushNamed(contexto, '/jugadores');
-                  },
-                  icon: Icon(Icons.sports_soccer, color: active == 'jugadores' ? azul : null),
-                ),
+                //IconButton(
+                //onPressed: () {
+                // Navigator.pushNamed(contexto, '/jugadores');
+                // },
+                //icon: Icon(Icons.sports_soccer, color: active == 'jugadores' ? azul : null),
+                // ),
                 IconButton(
                   onPressed: () {
                     Navigator.pushNamed(contexto, '/equipos');

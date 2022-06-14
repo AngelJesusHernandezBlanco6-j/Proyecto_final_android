@@ -192,7 +192,7 @@ class Jugadores extends StatelessWidget {
               ],
             ),
           ),
-          navBar(contexto: context, active: 'jugadores')
+          //navBar(contexto: context, active: 'jugadores')
         ],
       ),
     );
