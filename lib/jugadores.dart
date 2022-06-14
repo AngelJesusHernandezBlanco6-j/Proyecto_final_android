@@ -7,6 +7,9 @@ class Jugadores extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      theme: ThemeData(
+        canvasColor: Colors.green,
+      ),
       appBar: AppBar(
         backgroundColor: rojo,
         elevation: 10,
