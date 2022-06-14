@@ -179,6 +179,29 @@ class Datos extends StatelessWidget {
                     ),
                   ),
                 ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(20, 0, 10, 0),
+                  child: Text(
+                    "Redes Sociales:",
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                      fontSize: fontSizeSubtitles,
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(20, 0, 10, 10),
+                  child: Text(
+                    "INSTAGRAM: @gotenks1412",
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: fontSizeSubtitles,
+                    ),
+                  ),
+                ),
               ],
             ),
             navBar(contexto: context, active: 'desarrollador')
