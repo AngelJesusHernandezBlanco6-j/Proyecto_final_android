@@ -170,7 +170,9 @@ class Jugadores extends StatelessWidget {
                             child: const Text('Cancel'),
                           ),
                           TextButton(
-                            Navigator.pushNamed(context, '/inicio');
+                            onPressed: () {
+                              Navigator.pushNamed(context, '/inicio');
+                            },
                             child: const Text('OK'),
                           ),
                         ],
