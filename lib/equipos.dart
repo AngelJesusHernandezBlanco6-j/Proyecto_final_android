@@ -8,6 +8,7 @@ class Equipos extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'GoFutbol!',
       home: Scaffold(
+        backgroundColor: Color(0xff00BCD1),
         appBar: AppBar(
           title: Text(
             'GoFutbol!',
